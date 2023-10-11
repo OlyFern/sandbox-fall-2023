@@ -8,7 +8,7 @@ public class ListStack<T> implements Stack<T> {
     private List<T> stack;
 
     public ListStack() {
-        this.stack = new ArrayList<T>();
+        this.stack = new ArrayList<>();
     }
 
     @Override
